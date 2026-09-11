@@ -13,7 +13,7 @@ Panel {
   property var anchorItem: null
   property var hostWidget: null
   readonly property string home: Quickshell.env("HOME") || ""
-  readonly property string fluxcastBin: home !== "" ? home + "/.local/bin/fluxcast" : "fluxcast"
+  readonly property string fluxcastBin: "fluxcast"
 
   property bool fluxcastAvailable: false
   property string fluxcastVersion: ""
